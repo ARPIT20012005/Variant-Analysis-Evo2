@@ -1,4 +1,4 @@
-# 🧪 Variant Analysis with Evo2 – Modal + Next.js
+# Variant Analysis with Evo2 – Modal + Next.js
 
 A full-stack bioinformatics project for **gene variant effect prediction**, powered by the **Evo2 large language model** from Arc Institute. This project features:
 
@@ -8,7 +8,7 @@ A full-stack bioinformatics project for **gene variant effect prediction**, powe
 
 ---
 
-## 🔬 Overview
+## Overview
 
 This application fetches gene sequences (e.g. from UCSC), runs inference on genetic variants using Evo2 (LLM for genomics), and provides visualizations and classification:
 
@@ -19,7 +19,7 @@ This application fetches gene sequences (e.g. from UCSC), runs inference on gene
 
 ---
 
-## 🗂 Project Structure
+## Project Structure
 
 ```
 VARIENT-ANALYSIS-EVO2/
@@ -37,9 +37,9 @@ VARIENT-ANALYSIS-EVO2/
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
-### 🔧 Backend (Modal)
+### Backend (Modal)
 
 > Deployed on Modal with GPU (H100) using FastAPI endpoints
 
@@ -69,7 +69,7 @@ POST https://variant-analysis-evo2--analyze-single-variant.modal.run/
 
 ---
 
-## 📈 Example Output
+## Example Output
 
 * Delta scores for BRCA1 SNVs
 * AUROC of Evo2 on known BRCA1 dataset
@@ -78,7 +78,7 @@ POST https://variant-analysis-evo2--analyze-single-variant.modal.run/
 
 ---
 
-## 🛆 Requirements (Backend)
+## Requirements (Backend)
 
 ```txt
 fastapi[standard]
@@ -93,7 +93,7 @@ biopython
 
 ---
 
-## 🤖 Evo2 Model Details
+## Evo2 Model Details
 
 * Model: `evo2_7b`
 * Source: [https://github.com/ArcInstitute/evo2](https://github.com/ArcInstitute/evo2)
@@ -102,13 +102,13 @@ biopython
 
 ---
 
-## 🎜 License
+## License
 
 MIT License © 2025 – Variant Analysis Evo2 Team
 
 ---
 
-## 👩‍⚖️ Authors
+## Authors
 
 * Modal Deployment: `@arpit`
 * Evo2 Integration: Arc Institute (model authorship)
