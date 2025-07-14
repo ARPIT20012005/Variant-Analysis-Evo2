@@ -1,0 +1,8 @@
+modal
+matplotlib
+pandas
+seaborn
+scikit-learn 
+openpyxl
+numpy<2.0
+fastapi[standard]
